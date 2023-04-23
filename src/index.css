@@ -1,0 +1,43 @@
+
+input::placeholder,textarea::placeholder{
+
+    font-family:'Alkatra' , sans-serif; 
+    color: #AAA;
+}
+
+input:focus, textarea:focus{
+    outline: none;                  /* tira o azul envolta do input */
+}
+
+
+
+
+   /* form styles */
+
+   form{
+    max-width: 50%;
+    margin: 0 auto;
+   }
+
+   label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+   }
+
+   label span {
+    margin-bottom:.3em ;
+    font-weight: bold;
+    text-align: left;
+
+   }
+
+   input, textarea {
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        padding: .8em 0 ;
+        background-color: transparent;
+   }
+
+   
