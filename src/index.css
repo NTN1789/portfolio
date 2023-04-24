@@ -26,7 +26,7 @@ input:focus, textarea:focus{
    }
 
    label span {
-    margin-bottom:.3em ;
+    margin-bottom:.5em ;
     font-weight: bold;
     text-align: left;
 
@@ -36,7 +36,7 @@ input:focus, textarea:focus{
         box-sizing: border-box;
         border: none;
         border-bottom: 2px solid #ccc;
-        padding: .8em 0 ;
+        padding: .9em 0 ;
         background-color: transparent;
    }
 
