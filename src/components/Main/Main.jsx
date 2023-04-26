@@ -1,7 +1,7 @@
-import { useState } from 'react'
+
 import Carta from "../../assets/carta.jpg"
 import { Buttons, ContainerMain, CaixaTitle, Tilte, BoxImage, Imagem, BoxTilte } from './MainStyled'
-
+import Natan from"../../assets/Foto.jpg"
 
 
 const Main = () => {
@@ -21,7 +21,7 @@ const Main = () => {
         </CaixaTitle>
             <BoxImage>
             <Imagem src={Carta} alt='carta'></Imagem>
-   
+           
             
 
             </BoxImage>

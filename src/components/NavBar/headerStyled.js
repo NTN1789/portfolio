@@ -31,12 +31,12 @@ export const banner = styled.header`
     list-style:none;
   
     
-        &{
-                
-        }
+  
 }
 
-
+a{
+    text-decoration:none;
+}
 
 
 `

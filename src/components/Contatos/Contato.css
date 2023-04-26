@@ -15,11 +15,12 @@
   }
   
   .icons a {
-    margin: 0 25px;
+    margin: 0 35px;
     text-decoration: none;
     color: #fff;
     display: block;
     position: relative;
+    right: 10px;;
   }
   
   .icons a .layer {

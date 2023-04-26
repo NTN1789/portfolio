@@ -1,9 +1,11 @@
 import React from 'react'
 import { Form } from "./StylesContato"
 import "./Contato.css"
+import { ContainerMain } from '../Main/MainStyled'
+import { Link } from 'react-router-dom'
 export const Contatos = () => {
   return (
-    <div>
+    <ContainerMain>
      
 
            <Form>
@@ -51,7 +53,7 @@ export const Contatos = () => {
       <div className="container-contatos">
         <div className="contatos">
           <div className="icons">
-            <a href="#">
+            <a href="https://github.com/NTN1789">
               <div className="layer">
                 <span></span>
                 <span></span>
@@ -62,18 +64,18 @@ export const Contatos = () => {
               </div>
               <div className="text">GitHub</div>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/natan-silva-314b7218a/">
               <div className="layer">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <span className="fab fa-linkedin-in"><i class="bi bi-linkedin"></i>
-                </span>
+            <span className="fab fa-linkedin-in"><i class="bi bi-linkedin"></i></span>    
+            
               </div>
               <div className="text">Linkedin</div>
             </a>
-            <a href="#">
+            <a href="natanalmeida040@gmail.com">
               <div className="layer">
                 <span></span>
                 <span></span>
@@ -85,7 +87,7 @@ export const Contatos = () => {
               </div>
               <div className="text">Gmail</div>
             </a>
-            <a href="#">
+            <a href="https://twitter.com/natansi96847698">
               <div className="layer">
                 <span></span>
                 <span></span>
@@ -101,6 +103,6 @@ export const Contatos = () => {
       </div>
     </section>
       
-        </div>
+        </ContainerMain>
   )
 }
