@@ -5,7 +5,7 @@ import { ContainerMain } from '../Main/MainStyled'
 import { Link } from 'react-router-dom'
 export const Contatos = () => {
   return (
-    <ContainerMain>
+    <ContainerMain  style={{height:"60vw"}} >
      
 
            <Form>
@@ -45,7 +45,7 @@ export const Contatos = () => {
 
     <label for=""> deixe sua Mensagem</label>
                         <textarea rows="4"></textarea>
-                        <button type="submit" id="formId">Sua mensagem </button>
+                        <button className='btn' type="submit" id="formId">Sua mensagem </button>
 
  
     </Form>

@@ -21,13 +21,14 @@ export const banner = styled.header`
         
     }
 
-    li{
+    a{
     text-decoration:none;
     color:white;
-    font-size:1.4rem;
+    font-size:1.5em;
     font-weight:bold ;
+    color:#09B4E0;
  
-    text-transform: uppercase;
+ 
     list-style:none;
   
     

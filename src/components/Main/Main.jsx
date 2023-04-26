@@ -1,6 +1,6 @@
 
 import Carta from "../../assets/carta.jpg"
-import { Buttons, ContainerMain, CaixaTitle, Tilte, BoxImage, Imagem, BoxTilte } from './MainStyled'
+import { Buttons, ContainerMain, CaixaTitle, Tilte, BoxImage, Imagem} from './MainStyled'
 import Natan from"../../assets/Foto.jpg"
 
 

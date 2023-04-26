@@ -51,13 +51,13 @@ export const Buttons = styled.button `
   align-items: center;
   text-decoration: none;
   color: #fff;
-  width: 20%;
+  width: 35%;
   text-align: center;
-  border: 2px solid tomato;
+  border: 2px solid   #09B4E0;;
   padding: 12px 25px;
-  background-color: tomato;
+  background-color:   #09B4E0;
   position:relative;
-  top:15vh;
+  top:16vh;
   right:35rem ;
 
 
@@ -67,9 +67,8 @@ export const Buttons = styled.button `
 display:flex;
 justify-content:flex-end;
 align-items:center;
-height:10vw;
+height:5vw;
 width:95%;
-margin:auto;
 position:absolute;
 top:50vh;	
 
@@ -77,27 +76,8 @@ top:50vh;
 `
 
 export const Imagem= styled.img `
-width:25vw;
-`
+width:25%;
 
-
-export const BoxTilte = styled.div `
-padding-top:20%;
-display:flex;
-justify-content:center;
-
-flex-direction:column;
-text-align:center;
-width:50%; 
-  height: 80vh;
-  color: #ffffff;
-  gap:1.2rem;
-  margin:auto;
-;
-
-p{
-  font-size:2.8rem
-}
 
 
 img {
