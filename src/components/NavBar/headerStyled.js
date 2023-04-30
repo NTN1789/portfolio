@@ -24,8 +24,8 @@ export const banner = styled.header`
     a{
     text-decoration:none;
     color:white;
-    font-size:1.5em;
-    font-weight:bold ;
+    font-size:1.9em;
+   
     color:#09B4E0;
  
  
