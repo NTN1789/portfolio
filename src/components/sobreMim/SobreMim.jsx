@@ -1,8 +1,27 @@
 import React from 'react'
+import { ContainerMain } from '../Main/MainStyled'
+import { Card } from './Card'
+
 
 const SobreMim = () => {
   return (
-    <div>SobreMim</div>
+    <>
+    <ContainerMain>
+
+      <Card
+
+
+
+
+
+
+/>
+    
+    </ContainerMain>
+    
+    </>
+
+  
   )
 }
 

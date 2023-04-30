@@ -2,7 +2,7 @@ import React from 'react'
 import { Form } from "./StylesContato"
 import "./Contato.css"
 import { ContainerMain } from '../Main/MainStyled'
-import { Link } from 'react-router-dom'
+
 export const Contatos = () => {
   return (
     <ContainerMain  style={{height:"60vw"}} >
@@ -17,7 +17,7 @@ export const Contatos = () => {
          type="email" 
          name='Email' 
          required
-         placeholder='Email do usuário'
+         placeholder='seu Email'
        
         
          />
@@ -29,7 +29,7 @@ export const Contatos = () => {
          type="name" 
          name='nome' 
          required
-         placeholder='nome do usuário'
+         placeholder='seu nome'
          />
     </label>
 
@@ -39,7 +39,7 @@ export const Contatos = () => {
          type="nome" 
          name='number' 
          required
-         placeholder='Telefone do usuário'
+         placeholder='seu número'
          />
     </label>
 
