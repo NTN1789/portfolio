@@ -2,10 +2,13 @@ import React from 'react'
 import { Form } from "./StylesContato"
 import "./Contato.css"
 import { ContainerMain } from '../Main/MainStyled'
+import { GlobalStyle } from '../../style/global'
 
 export const Contatos = () => {
   return (
-    <ContainerMain  style={{height:"60vw"}} >
+<>
+      <GlobalStyle/>
+    <ContainerMain  style={{height:"63vw", width:"100%"}} >
      
 
            <Form>
@@ -104,5 +107,7 @@ export const Contatos = () => {
     </section>
       
         </ContainerMain>
+
+</>
   )
 }

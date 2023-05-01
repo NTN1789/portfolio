@@ -6,9 +6,9 @@ import Main from "../Main/Main"
 export default  function Home ()  {
     return(
         <>
+      <S.banner>
         <GlobalStyle/>
         
-      <S.banner>
 
      
 

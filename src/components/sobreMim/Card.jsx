@@ -1,28 +1,43 @@
 import React from 'react'
-import "./sobre.css"
+import { Image,Alinhamento } from './sobreStyles'
+
 
 export const Card = (props) => {
+
+  // 
   return (
   
   <>
- 
-  <section className="conhecimentos">
-    
-      <div className="container-infos-conhecimentos">
-        <div className="cards-conhecimentos-background">
-          <div className="cards-conhecimentos">
-            <div className="background-image-html background-image">
-              <img src={props.imagem} alt="" />
-            </div>
-            <h3>{props.nome}</h3>
-            <p>{props.sobre}</p>
+
+
+<div className="grid gap-5 grid-cols-3 grid-rows-4">
+              <Image  src={props.imagem} alt="" />
+
+
+            <Alinhamento>{props.nome}</Alinhamento>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+            
+           
         
  
-          </div>
-        </div>
+        
+      
      
-      </div>
-      </section>
 
  
 </>  

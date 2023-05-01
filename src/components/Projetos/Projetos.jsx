@@ -3,6 +3,7 @@ import React from 'react'
 import { ContainerMain } from '../Main/MainStyled'
 import  {useState,useEffect} from'react'
 import { Text } from './StylesProjetos'
+import { GlobalStyle } from '../../style/global'
 
 
 const Projetos = () => {
@@ -21,33 +22,22 @@ const Projetos = () => {
     }
   });
 
-  useEffect(  () => {
-    fetch('https://api.github.com/users/NTN1789/repos')
-    .then(Response => Response.json ())
-    .then(data => {
-        setRepositories(data)
-    })
- 
-} , []); // carregar informações na tela
+  
 
   return (
-    <div>
+    <>
+      <GlobalStyle/>
         <ContainerMain style={{height: "100vw", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", backgroundColor: "#171717"}}>
            <Text className='text'>{Juntar}</Text>
-  
-        <ul>
-         {repositories.map((repository => 
-         <li key={repository.id} > 
-         {repository.name}
-    
-         
-          </li> ))}
-       </ul>
-
+           <div class="flex flex-wrap">
+  <div></div>
+  <div>02</div>
+  <div>03</div>
+</div>
 
      
        </ContainerMain>
-        </div>
+        </>
   )
 }
 

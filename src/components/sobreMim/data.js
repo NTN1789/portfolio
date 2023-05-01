@@ -70,13 +70,7 @@ const cards= [
         sobre:"Firebase é uma biblioteca JavaScript que permite que vocë crie interfaces de usuário usando a linguagem de programação JavaScript."
     },
 
-    {
-        id:12,
-        name:"typescript",
-        image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" ,
-        sobre:"TypeScript é uma linguagem de programação de alto nível, de tipagem dinâmica e multiplataforma."
-    
-    }
+
 
 
 

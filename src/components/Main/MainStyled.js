@@ -21,8 +21,8 @@ display: flex;
   justify-content: center;
   align-items:center;
 
-  width: 65%;
-  height: 56vh;
+  width: 78%;
+  height: 55vh;
   color: #ffffff;
   gap:1.2rem;
 
@@ -33,7 +33,7 @@ export const Tilte = styled.h1 `
    flex-direction:column;
    justify-content:center;
    text-align:center;
-   font-size:1.9rem;
+   font-size:2.2rem;
    padding:20px 45px;
 
    gap:1.6rem;
@@ -41,7 +41,7 @@ export const Tilte = styled.h1 `
 
    p{
     text-align:center;
-    font-size:1.3rem;
+    font-size:2.5rem;
    }
 `
 
@@ -51,17 +51,42 @@ export const Buttons = styled.button `
   align-items: center;
   text-decoration: none;
   color: #fff;
-  width: 35%;
+  width: 15%;
+  
   text-align: center;
-  border: 2px solid   #09B4E0;;
-  padding: 12px 25px;
+  border: 3px solid   #09B4E0;;
+  padding: 12px 15px;
   background-color:   #09B4E0;
   position:relative;
-  top:16vh;
-  right:35rem ;
+  top:15vh;
+  right:38rem ;
 
 
   `
+
+export const ButtonsCv = styled.button `
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  width: 25%;
+  height:50px;
+  text-align: center;
+  border: 3px solid   #09B4E0;;
+  padding: 20px 65px;
+  background-color:   #09B4E0;
+  position:relative;
+  top:15vh;
+  right:36rem ;
+
+
+  `
+
+
+
+
+
 
   export const BoxImage = styled.div `
 display:flex;
@@ -79,9 +104,7 @@ export const Imagem= styled.img `
 width:25%;
 
 
-
-img {
-  width:20vh;
+img{
+  width:10vh;
 }
-
 `

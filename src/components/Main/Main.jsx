@@ -1,13 +1,17 @@
 
 import Carta from "../../assets/carta.jpg"
-import { Buttons, ContainerMain, CaixaTitle, Tilte, BoxImage, Imagem} from './MainStyled'
+import { Buttons, ContainerMain, CaixaTitle, Tilte, BoxImage, Imagem, ButtonsCv} from './MainStyled'
 import Natan from"../../assets/Foto.jpg"
+import Curriculo from "../../assets/Natan Almeida da silva-3.pdf"
+
+
 
 
 const Main = () => {
 
 
   return (
+    
     <ContainerMain>
         <CaixaTitle> 
    <Tilte> 
@@ -16,17 +20,21 @@ const Main = () => {
    
    <p>Desenvolvedor Web </p>
         </Tilte>
-   <Buttons>Download CV</Buttons>  <Buttons> Linkedln </Buttons>
+        <a href={Curriculo}  target="_blank" >  <ButtonsCv>Download CV  </ButtonsCv>  </a>   <Buttons> Linkedln </Buttons>
 
         </CaixaTitle>
             <BoxImage>
-            <Imagem src={Carta} alt='carta'></Imagem>
+            <Imagem src={Carta}  alt='carta'>
+
+             
+            </Imagem>
            
             
+           
 
             </BoxImage>
        
-           
+        
   
         </ContainerMain>
     
