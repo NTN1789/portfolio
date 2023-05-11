@@ -2,13 +2,13 @@ import React from 'react'
 import { Form } from "./StylesContato"
 import "./Contato.css"
 import { ContainerMain } from '../Main/MainStyled'
-import { GlobalStyle } from '../../style/global'
+import { GlobalStyle } from '../../style/Global'
 
 export const Contatos = () => {
   return (
 <>
       <GlobalStyle/>
-    <ContainerMain  style={{height:"63vw", width:"100%"}} >
+    <ContainerMain   >
      
 
            <Form>

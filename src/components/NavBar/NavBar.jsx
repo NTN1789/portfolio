@@ -1,13 +1,13 @@
 import * as S from "./headerStyled"
-import { GlobalStyle } from "../../style/global"
-import { Link, NavLink } from 'react-router-dom'
-import Main from "../Main/Main"
+import { GlobalStyle } from "../../style/Global"
+import { NavLink } from 'react-router-dom'
+
 
 export default  function Home ()  {
     return(
         <>
-      <S.banner>
         <GlobalStyle/>
+      <S.banner>
         
 
      

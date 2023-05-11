@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import Natan from "../../assets/FotoN.jpg"
 
 
 export const ContainerMain = styled.main`
-  padding-top: 5%;
-  height:45.8vw;
-  width: 100%;
+ 
+height:100vh;
+
+width:100%;
   color: #fff;
 
 
@@ -15,34 +17,47 @@ export const ContainerMain = styled.main`
 
 export const CaixaTitle = styled.div`
 display: flex;
-  flex-direction: row;
-
-
+ 
   justify-content: center;
   align-items:center;
+flex-wrap:wrap;
+  width: 50%;
+  height:50%;  
 
-  width: 78%;
-  height: 55vh;
   color: #ffffff;
-  gap:1.2rem;
+ 
+
+
 
 
 `
 export const Tilte = styled.h1 `
    display:flex;
    flex-direction:column;
-   justify-content:center;
+align-items:center;
    text-align:center;
-   font-size:2.2rem;
-   padding:20px 45px;
+   font-size:1.8rem;
 
-   gap:1.6rem;
+   gap:1.0rem;
    
 
    p{
     text-align:center;
-    font-size:2.5rem;
+    font-size:2.0rem;
    }
+`
+
+
+export const BoxButtons = styled.div `
+display:flex;
+justify-content:space-evenly;
+flex-wrap:wrap;
+
+width:50%;
+position:relative;
+top:-5.8em;
+
+
 `
 
 export const Buttons = styled.button `
@@ -51,15 +66,14 @@ export const Buttons = styled.button `
   align-items: center;
   text-decoration: none;
   color: #fff;
-  width: 15%;
-  
+  width: 20px;
+ height:30px;
   text-align: center;
   border: 3px solid   #09B4E0;;
-  padding: 12px 15px;
+  padding: 20px 50px;
   background-color:   #09B4E0;
-  position:relative;
-  top:15vh;
-  right:38rem ;
+  cursor:pointer;
+ 
 
 
   `
@@ -70,15 +84,14 @@ export const ButtonsCv = styled.button `
   align-items: center;
   text-decoration: none;
   color: #fff;
-  width: 25%;
-  height:50px;
+  width: 25px;
+  height:30px;
   text-align: center;
   border: 3px solid   #09B4E0;;
-  padding: 20px 65px;
+  padding: 20px 50px;
   background-color:   #09B4E0;
-  position:relative;
-  top:15vh;
-  right:36rem ;
+  cursor:pointer;
+ 
 
 
   `
@@ -89,22 +102,38 @@ export const ButtonsCv = styled.button `
 
 
   export const BoxImage = styled.div `
-display:flex;
+display: flex;
 justify-content:flex-end;
 align-items:center;
-height:5vw;
-width:95%;
+width:95vw;
+
 position:absolute;
-top:50vh;	
+top:28%;
+flex-wrap:wrap;
+
+
 
 
 `
 
-export const Imagem= styled.img `
-width:25%;
+
+export const Imagem = styled.img ` 
+  width:25vw;
+  
+ 
+  `
 
 
-img{
-  width:10vh;
-}
+
+export const Foto = styled.img ` 
+position:absolute;
+height:42.5%;
+width:23%;
+right:2rem;
+top:9rem;
+`
+
+export const Numero = styled.p `
+
+
 `

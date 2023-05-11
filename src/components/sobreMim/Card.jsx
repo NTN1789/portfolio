@@ -10,7 +10,7 @@ export const Card = (props) => {
   <>
 
 
-<div className="grid gap-5 grid-cols-3 grid-rows-4">
+<div>
               <Image  src={props.imagem} alt="" />
 
 

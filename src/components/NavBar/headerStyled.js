@@ -3,20 +3,25 @@ import styled from "styled-components"
 export const banner = styled.header`
     display:flex;
     justify-content:flex-end;
-    align-items:center;
+    
     background-color: #171717;
    
-    width:100%;
+    
    
 
-    height:12vh;
+    height:8vw;
+
 
 
     ul{
         display:flex;
-     justify-content:space-evenly;
-     width:50vw;
+     justify-content:space-around;
+     align-items:center;
+
+     width:60vh;
      cursor:pointer;
+     flex-wrap:wrap;
+     
 
         
     }
@@ -24,7 +29,7 @@ export const banner = styled.header`
     a{
     text-decoration:none;
     color:white;
-    font-size:1.9em;
+    font-size:1.8em;
    
     color:#09B4E0;
  

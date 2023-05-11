@@ -1,7 +1,7 @@
 
 input::placeholder,textarea::placeholder{
 
-    font-family:'Alkatra' , sans-serif; 
+  
     color: #AAA;
 }
 
@@ -15,19 +15,19 @@ input:focus, textarea:focus{
    /* form styles */
 
    form{
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: 100%;
+ 
     font-size: 1.5em;
    }
 
    label{
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
    }
 
    label span {
-    margin-bottom:.7em ;
+    margin-bottom:.8em ;
     font-weight: bold;
     text-align: left;
 
@@ -37,7 +37,7 @@ input:focus, textarea:focus{
         box-sizing: border-box;
         border: none;
         border-bottom: 2px solid #ccc;
-        padding: .9em 0 ;
+        padding: .5em 0 ;
         background-color: transparent;
         color: white;
    }
