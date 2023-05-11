@@ -5,7 +5,14 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-
+import Recipes from "../../assets/desafios/recipes.png"
+import CatApi from "../../assets/desafios/ApiCat.png"
+import Blog from "../../assets/desafios/Blog.png"
+import CardD from "../../assets/desafios/Card.png"
+import CardDogs from "../../assets/desafios/cardDogs.png"
+import Pepsi from "../../assets/desafios/Pepsi.png"
+import Todo from "../../assets/desafios/Todo.png"
+import Slider from "../../assets/desafios/slider.png"
 import  {useState,useEffect} from'react'
 import { Text, BoxContainer } from './StylesProjetos'
 import { GlobalStyle } from '../../style/Global'
@@ -39,17 +46,17 @@ const Projetos = () => {
 
 
 
-           <Card sx={{ maxWidth: 372 }}>
+           <Card sx={{ maxWidth: 380 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="175"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          height="200"
+          image={Recipes}
+          alt="recipes"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            Pepsi-page
+         Recipes
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -68,13 +75,13 @@ const Projetos = () => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="175"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          height="200"
+          image={CatApi}
           alt="green iguana"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-          projeto
+          Cat Api
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -92,13 +99,13 @@ const Projetos = () => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="175"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          height="200"
+          image={Blog}
           alt="green iguana"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            projeto
+       Blog
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -116,7 +123,7 @@ const Projetos = () => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="175"
+          height="200"
           image="/static/images/cards/contemplative-reptile.jpg"
           alt="green iguana"
           />

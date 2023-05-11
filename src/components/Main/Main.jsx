@@ -1,9 +1,10 @@
 
-import Carta from "../../assets/carta.jpg"
-import { Buttons, ContainerMain, CaixaTitle, Tilte, BoxImage,  ButtonsCv, BoxButtons, Imagem, Foto} from './MainStyled'
+
+import { Buttons, ContainerMain, CaixaTitle, Tilte, BoxImage,  ButtonsCv, BoxButtons, Foto} from './MainStyled'
 import Natan from"../../assets/FotoN.jpg"
 import Curriculo from "../../assets/Natan Almeida da silva-3.pdf"
 import { GlobalStyle } from "../../style/Global"
+
 
 
 
@@ -32,7 +33,7 @@ const Main = () => {
 </BoxButtons>
 
        <BoxImage>
-        <Imagem src={Carta} alt="Natan"/>
+     
 
        <Foto  src={Natan} alt="Natan"/>
        

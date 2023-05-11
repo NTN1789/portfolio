@@ -38,12 +38,12 @@ align-items:center;
    text-align:center;
    font-size:1.8rem;
 
-   gap:1.0rem;
+   gap:1.5rem;
    
 
    p{
     text-align:center;
-    font-size:2.0rem;
+    font-size:1.7rem;
    }
 `
 
@@ -103,37 +103,24 @@ export const ButtonsCv = styled.button `
 
   export const BoxImage = styled.div `
 display: flex;
-justify-content:flex-end;
-align-items:center;
-width:95vw;
+justify-content: flex-end;
+width:90%;
 
-position:absolute;
-top:28%;
-flex-wrap:wrap;
+
 
 
 
 
 `
-
-
-export const Imagem = styled.img ` 
-  width:25vw;
-  
- 
-  `
 
 
 
 export const Foto = styled.img ` 
 position:absolute;
-height:42.5%;
-width:23%;
-right:2rem;
-top:9rem;
-`
-
-export const Numero = styled.p `
-
+top:15rem;
+border-radius:50%;
+height:45%;
+width:25%;
 
 `
+
