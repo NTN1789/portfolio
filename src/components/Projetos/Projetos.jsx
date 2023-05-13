@@ -7,12 +7,14 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import Recipes from "../../assets/desafios/recipes.png"
 import CatApi from "../../assets/desafios/ApiCat.png"
-import Blog from "../../assets/desafios/Blog.png"
+import Pokedex from "../../assets/desafios/pokedex.png"
 import CardD from "../../assets/desafios/Card.png"
 import CardDogs from "../../assets/desafios/cardDogs.png"
 import Pepsi from "../../assets/desafios/Pepsi.png"
 import Todo from "../../assets/desafios/Todo.png"
-import Slider from "../../assets/desafios/slider.png"
+import Calculadora from "../../assets/desafios/calc.png"
+import Port from "../../assets/desafios/port.png"
+import Copa from "../../assets/desafios/copa.png"
 import  {useState,useEffect} from'react'
 import { Text, BoxContainer } from './StylesProjetos'
 import { GlobalStyle } from '../../style/Global'
@@ -68,7 +70,7 @@ const Projetos = () => {
         projeto
         </Button>
         <Button size="small" color="primary">
-        Link
+     
         </Button>
       </CardActions>
     </Card>
@@ -106,12 +108,12 @@ const Projetos = () => {
         <CardMedia
           component="img"
           height="200"
-          image={Blog}
+          image={Pokedex}
           alt="green iguana"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-       Blog
+      PokeDex
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -123,7 +125,7 @@ const Projetos = () => {
         projeto
         </Button>
         <Button size="small" color="primary">
-        Link
+        <a href="http://pokemon-lemon.vercel.app/" target="_blank" rel="noopener noreferrer"> Link</a>
         </Button>
       </CardActions>
     </Card>
@@ -150,7 +152,7 @@ const Projetos = () => {
         projeto
         </Button>
         <Button size="small" color="primary">
-        Link
+        <a href="https://todo-list-bay-seven.vercel.app/"  target="_blank" > Link</a>
         </Button>
       </CardActions>
     </Card>
@@ -177,7 +179,7 @@ const Projetos = () => {
         projeto
         </Button>
         <Button size="small" color="primary">
-        Link
+     <a href="http://pepsi-page-five.vercel.app" target="_blank" rel="noopener noreferrer"> Link</a>
         </Button>
       </CardActions>
     </Card>
@@ -204,7 +206,7 @@ const Projetos = () => {
         projeto
         </Button>
         <Button size="small" color="primary">
-        Link
+        <a href="https://card-colaboradores.vercel.app/" target="_blank" rel="noopener noreferrer"> Link</a>
         </Button>
       </CardActions>
     </Card>
@@ -213,12 +215,12 @@ const Projetos = () => {
         <CardMedia
           component="img"
           height="175"
-          image={Slider}
+          image={Calculadora}
           alt="green iguana"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-          slider-js
+          Calculadora
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -231,7 +233,7 @@ const Projetos = () => {
         </Button>
 
         <Button size="small" color="primary">
-        Link
+        <a href="https://calculadora-eta-hazel.vercel.app/ " target="_blank" rel="noopener noreferrer"> Link</a>
         </Button>
       </CardActions>
     </Card>
@@ -257,7 +259,62 @@ const Projetos = () => {
         projeto
         </Button>
         <Button size="small" color="primary">
-        Link
+       <a href="http://card-sigma-nine.vercel.app/ " target="_blank" rel="noopener noreferrer"> Link</a>
+        </Button>
+      </CardActions>
+    </Card>
+
+    <Card sx={{ maxWidth: 372 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="175"
+          image={Port}
+          alt="portflow"
+          />
+        <CardContent>
+          <Typography gutterBottom variant="h4" component="div">
+         Portflow 
+          </Typography>
+          <Typography variant="body4" color="text.secondary">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+        projeto
+        </Button>
+        <Button size="small" color="primary">
+       <a href="https://port-flow.vercel.app/# " target="_blank" rel="noopener noreferrer"> Link</a>
+        </Button>
+      </CardActions>
+    </Card>
+
+
+    <Card sx={{ maxWidth: 372 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="175"
+          image={Copa}
+          alt="portflow"
+          />
+        <CardContent>
+          <Typography gutterBottom variant="h4" component="div">
+         Copa do mundo 
+          </Typography>
+          <Typography variant="body4" color="text.secondary">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+        projeto
+        </Button>
+        <Button size="small" color="primary">
+       <a href="https://projeto-copa-gamma.vercel.app/ " target="_blank" rel="noopener noreferrer"> Link</a>
         </Button>
       </CardActions>
     </Card>
