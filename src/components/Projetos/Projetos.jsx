@@ -67,6 +67,9 @@ const Projetos = () => {
         <Button size="small" color="primary">
         projeto
         </Button>
+        <Button size="small" color="primary">
+        Link
+        </Button>
       </CardActions>
     </Card>
 
@@ -92,6 +95,9 @@ const Projetos = () => {
         <Button size="small" color="primary">
         projeto
         </Button>
+        <Button size="small" color="primary">
+        Link
+        </Button>
       </CardActions>
     </Card>
      
@@ -116,6 +122,9 @@ const Projetos = () => {
         <Button size="small" color="primary">
         projeto
         </Button>
+        <Button size="small" color="primary">
+        Link
+        </Button>
       </CardActions>
     </Card>
      
@@ -124,12 +133,12 @@ const Projetos = () => {
         <CardMedia
           component="img"
           height="200"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          image={Todo}
+          alt="todo list"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            Projeto
+          Todo List
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -140,6 +149,9 @@ const Projetos = () => {
         <Button size="small" color="primary">
         projeto
         </Button>
+        <Button size="small" color="primary">
+        Link
+        </Button>
       </CardActions>
     </Card>
      
@@ -148,8 +160,8 @@ const Projetos = () => {
         <CardMedia
           component="img"
           height="175"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          image={Pepsi}
+          alt="Pepsi-page"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
@@ -163,6 +175,9 @@ const Projetos = () => {
       <CardActions>
         <Button size="small" color="primary">
         projeto
+        </Button>
+        <Button size="small" color="primary">
+        Link
         </Button>
       </CardActions>
     </Card>
@@ -172,12 +187,12 @@ const Projetos = () => {
         <CardMedia
           component="img"
           height="175"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={CardD}
           alt="green iguana"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            Pepsi-page
+      card animado
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -188,6 +203,9 @@ const Projetos = () => {
         <Button size="small" color="primary">
         projeto
         </Button>
+        <Button size="small" color="primary">
+        Link
+        </Button>
       </CardActions>
     </Card>
     <Card sx={{ maxWidth: 372 }}>
@@ -195,12 +213,12 @@ const Projetos = () => {
         <CardMedia
           component="img"
           height="175"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={Slider}
           alt="green iguana"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            Pepsi-page
+          slider-js
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -211,6 +229,10 @@ const Projetos = () => {
         <Button size="small" color="primary">
         projeto
         </Button>
+
+        <Button size="small" color="primary">
+        Link
+        </Button>
       </CardActions>
     </Card>
     <Card sx={{ maxWidth: 372 }}>
@@ -218,12 +240,12 @@ const Projetos = () => {
         <CardMedia
           component="img"
           height="175"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          image={CardDogs}
+          alt="card dogs"
           />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            Pepsi-page
+          Card 
           </Typography>
           <Typography variant="body4" color="text.secondary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
@@ -233,6 +255,9 @@ const Projetos = () => {
       <CardActions>
         <Button size="small" color="primary">
         projeto
+        </Button>
+        <Button size="small" color="primary">
+        Link
         </Button>
       </CardActions>
     </Card>

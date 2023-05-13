@@ -1,9 +1,9 @@
 import React from 'react'
 import { ContainerMain } from '../Main/MainStyled'
-import { Card } from './Card'
+import { Card } from './Cards'
 import Data from './data'
 import { GlobalStyle } from '../../style/Global'
-import { Alinhamento, TextoEu } from './sobreStyles'
+import { Alinhamento, Box, TextoEu } from './sobreStyles'
 
 
 
@@ -17,9 +17,9 @@ const SobreMim = () => {
   return (
     <>
       <GlobalStyle/>
-    <ContainerMain  style={{display: 'flex', justifyContent: 'space-around', alignItems:"center", flexWrap: 'wrap', padding: '130px' , height:"100%"  }}>
+    <ContainerMain  style={{display: 'flex', justifyContent: 'center', alignItems:"flex-start", flexWrap: 'wrap', padding: '130px' , height:"100%"  }}>
 
-<Alinhamento style={{position:'relative', top: '-25px', color: 'white', fontSize: '70px'}}>sobre mim: </Alinhamento>
+<Alinhamento style={{position:'relative', top: '-22px', color: 'white', fontSize: '70px'}}>sobre mim: </Alinhamento>
 
 
 
@@ -53,20 +53,23 @@ const SobreMim = () => {
 
 
 
- 
-    <h1 style={{color: 'white', fontSize: '60px'}}>conhecimentos : </h1>
+ <Box>
+
+
+    <h1 style={{color: 'white', fontSize: '3rem'}}>conhecimentos : </h1>
       {Data.map(datas =>(
         <Card 
-            key={datas.id}
-            imagem ={datas.image}
-            nome={datas.name}
-         
+        key={datas.id}
+        imagem ={datas.image}
+        nome={datas.name}
+        
         />
-
-      ))}
+        
+        ))}
 
 
     
+        </Box>
     </ContainerMain>
     
     </>

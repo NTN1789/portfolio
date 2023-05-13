@@ -1,13 +1,20 @@
 import styled from "styled-components";
 
+export const Container = styled.div ` 
 
-export const Image = styled.img`
 display:flex;
 justify-content:center;
-align-items:center;
-height:25%;
-width:20vh;
-padding:155px 0px;
+flex-direction:column;
+
+`
+
+
+
+export const Image = styled.img`
+
+
+width:25vh;
+padding:150px 50px;
 
 
 `
@@ -15,7 +22,7 @@ padding:155px 0px;
 
 export const Alinhamento = styled.h3`
 position:relative;
-font-size:1.9rem;
+font-size:1.8rem;
 text-transform:uppercase;
 text-align:center;
 top:-8rem;
@@ -27,10 +34,20 @@ top:-8rem;
 
 
 export const TextoEu = styled.h4 `
-font-size:2.0rem;
+font-size:1.5rem;
 text-align:center;
 
 
 `
 
 
+export const Box = styled.section `
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+flex-wrap:wrap;
+
+
+
+
+`

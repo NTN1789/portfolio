@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image,Alinhamento } from './sobreStyles'
+import { Image,Alinhamento, Container } from './sobreStyles'
 
 
 export const Card = (props) => {
@@ -10,12 +10,13 @@ export const Card = (props) => {
   <>
 
 
-<div>
+<Container>
+  
               <Image  src={props.imagem} alt="" />
 
 
             <Alinhamento>{props.nome}</Alinhamento>
-</div>
+</Container>
 
 
   
