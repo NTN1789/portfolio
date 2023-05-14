@@ -3,7 +3,7 @@ import { ContainerMain } from '../Main/MainStyled'
 import { Card } from './Cards'
 import Data from './data'
 import { GlobalStyle } from '../../style/Global'
-import { Alinhamento, Box, TextoEu } from './sobreStyles'
+import { Alinhamento, Box, CaixaConhe, TextoEu } from './sobreStyles'
 
 import "./soft.css"
 
@@ -19,7 +19,7 @@ const SobreMim = () => {
       <GlobalStyle/>
     <ContainerMain  style={{display: 'flex', justifyContent: 'center', alignItems:"flex-start", flexWrap: 'wrap', padding: '130px' , height:"100%"  }}>
 
-<Alinhamento style={{position:'relative', top: '-22px', color: 'white', fontSize: '70px'}}>sobre mim: </Alinhamento>
+<Alinhamento style={{ color: 'white', fontSize: '70px'}}>sobre mim </Alinhamento>
 
 
 
@@ -56,7 +56,9 @@ const SobreMim = () => {
  <Box>
 
 
-    <h1 style={{color: 'white', fontSize: '3rem'}}>conhecimentos : </h1>
+
+    <h1>conhecimentos </h1>
+
       {Data.map(datas =>(
         <Card 
         key={datas.id}
@@ -99,6 +101,14 @@ const SobreMim = () => {
             <h3>Otimismo</h3>
             <p>Significa estar sempre atento ao ambiente e às pessoas a sua volta e estar sempre em busca de uma solução que melhore própria vida e a dos outros.</p>
             <a href="https://www.dicio.com.br/otimismo/" target="_blank">Leia Sobre</a>
+          </div>
+        </div>
+           <div className="cards-soft-skills">
+          <div className="content-soft-skills">
+            <h2>04</h2>
+            <h3>Liderança</h3>
+            <p>Significa estar sempre atento ao ambiente e às pessoas a sua volta e estar sempre em busca de uma solução que melhore própria vida e a dos outros.</p>
+            <a href="https://www.dicio.com.br/lideranca/" target="_blank">Leia Sobre</a>
           </div>
         </div>
       </div>

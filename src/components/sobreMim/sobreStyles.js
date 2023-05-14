@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div ` 
-
+padding-top:5%;
 display:flex;
 justify-content:center;
 flex-direction:column;
+
+height:46vh;
 
 `
 
@@ -14,7 +16,7 @@ export const Image = styled.img`
 
 
 width:25vh;
-padding:150px 50px;
+padding:50px 50px;
 
 
 `
@@ -22,10 +24,10 @@ padding:150px 50px;
 
 export const Alinhamento = styled.h3`
 position:relative;
-font-size:1.8rem;
+font-size:1.9rem;
 text-transform:uppercase;
 text-align:center;
-top:-8rem;
+top:-2rem;
 
 
 
@@ -50,4 +52,10 @@ flex-wrap:wrap;
 
 
 
+
+
+
+
+
 `
+
