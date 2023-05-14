@@ -3,14 +3,29 @@ import { GlobalStyle } from "../../style/Global"
 import { NavLink } from 'react-router-dom'
 
 
+
+
+
+
+
+
+
+
 export default  function Home ()  {
+ 
+
+
+ 
     return(
         <>
+
+  
         <GlobalStyle/>
+
+     
       <S.banner>
         
 
-     
 
         <ul>
 

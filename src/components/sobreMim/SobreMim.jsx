@@ -5,7 +5,7 @@ import Data from './data'
 import { GlobalStyle } from '../../style/Global'
 import { Alinhamento, Box, TextoEu } from './sobreStyles'
 
-
+import "./soft.css"
 
 
 
@@ -70,6 +70,38 @@ const SobreMim = () => {
 
     
         </Box>
+
+        <div className="conhecimentos-sub-title">
+        <h4>Soft Skills</h4>
+      </div>
+      <div className="container-soft-skills" data-aos="fade-right" data-aos-duration="1000">
+        <div className="cards-soft-skills">
+          <div className="content-soft-skills">
+            <h2>01</h2>
+            <h3>Empatia</h3>
+            <p>Empatia é a capacidade psicológica de sentir o que sentiria outra pessoa, caso estivesse na mesma situação vivenciada por ela.</p>
+            <a href="https://www.significados.com.br/empatia/" target="_blank">Leia Sobre</a>
+          </div>
+        </div>
+
+        <div className="cards-soft-skills">
+          <div className="content-soft-skills">
+            <h2>02</h2>
+            <h3>Resiliência</h3>
+            <p>Resiliência é a capacidade de voltar ao estado normal. No campo da psicologia, resiliência significa resistência ao choque, à adversidade.</p>
+            <a href="https://www.significados.com.br/resiliencia/" target="_blank">Leia Sobre</a>
+          </div>
+        </div>
+
+        <div className="cards-soft-skills">
+          <div className="content-soft-skills">
+            <h2>03</h2>
+            <h3>Otimismo</h3>
+            <p>Significa estar sempre atento ao ambiente e às pessoas a sua volta e estar sempre em busca de uma solução que melhore própria vida e a dos outros.</p>
+            <a href="https://www.dicio.com.br/otimismo/" target="_blank">Leia Sobre</a>
+          </div>
+        </div>
+      </div>
     </ContainerMain>
     
     </>
