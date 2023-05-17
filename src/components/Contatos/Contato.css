@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
    width:100%;
-   height:10vw;
+   height:7vw;
    
   }
 
@@ -17,11 +17,11 @@
   .icons {
     display: inline-flex;
     flex-wrap:wrap;
-    padding:2px;
+    padding:3px;
   }
   
   .icons a {
-    margin: 0 30px;
+    margin: 0 32px;
     text-decoration: none;
     color: #fff;
     display: flex;
@@ -148,3 +148,16 @@
     opacity: 2;
   }
   
+
+  @media (min-width: 350px) and (max-width: 500px) {
+
+    .container-contatos{
+    
+      width:50vh;
+      height:50vw;
+      padding:10px 30px;
+      display:flex;
+      
+    }
+  
+  }

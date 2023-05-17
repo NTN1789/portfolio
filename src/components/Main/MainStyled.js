@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Natan from "../../assets/FotoN.jpg"
+
 
 
 export const ContainerMain = styled.main`
@@ -12,6 +12,15 @@ width:100%;
 
   background-color: #171717;
 
+  @media (max-width: 950px) {
+width:100vh;
+
+}
+
+@media screen and (max-width:768px) {
+  width:100%;
+
+}
 
   `
 
@@ -27,8 +36,16 @@ flex-wrap:wrap;
   color: #ffffff;
  
 
+  @media (max-width: 900px) {
+width:45vh;
 
 
+
+}
+
+@media screen and (max-width:768px) {
+  width:50h;
+}
 
 `
 export const Tilte = styled.h1 `
@@ -43,8 +60,23 @@ align-items:center;
 
    p{
     text-align:center;
-    font-size:1.7rem;
+    font-size:1.5rem;
    }
+
+   @media (max-width: 900px) {
+font-size:15px;
+text-align:center;
+
+p{
+  text-align:center;
+}
+
+
+
+}
+
+
+
 `
 
 
@@ -57,6 +89,15 @@ width:50%;
 position:relative;
 top:-5.8em;
 
+@media (max-width: 900px) {
+width:50vh;
+
+
+}
+
+@media screen and (max-width:768px) {
+  width:50vh;
+}
 
 `
 
@@ -74,7 +115,13 @@ export const Buttons = styled.button `
   background-color:   #09B4E0;
   cursor:pointer;
  
+  @media (max-width: 900px) {
+position:relative;
 
+top:10rem;
+
+
+}
 
   `
 
@@ -91,8 +138,19 @@ export const ButtonsCv = styled.button `
   padding: 20px 50px;
   background-color:   #09B4E0;
   cursor:pointer;
- 
 
+  @media (max-width: 900px) {
+ position:relative;
+
+top:10rem;
+
+
+}
+
+@media screen and (max-width:768px) {
+  position:relative;
+top:10rem;
+}
 
   `
 
@@ -105,6 +163,14 @@ export const ButtonsCv = styled.button `
 display: flex;
 justify-content: flex-end;
 width:90%;
+
+@media (max-width: 900px) {
+
+width:35vh;
+
+
+
+}
 
 
 
@@ -121,6 +187,22 @@ top:15rem;
 border-radius:50%;
 height:45%;
 width:25%;
+
+  @media (max-width: 900px){
+width:30vh;
+
+
+}
+
+@media screen and (max-width:768px) {
+
+position:relative;
+top:5rem;
+  border-radius:100px;
+width:20vh;
+height:50vw;
+}
+
 
 `
 

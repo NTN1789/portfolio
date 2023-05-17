@@ -3,9 +3,10 @@ import { ContainerMain } from '../Main/MainStyled'
 import { Card } from './Cards'
 import Data from './data'
 import { GlobalStyle } from '../../style/Global'
-import { Alinhamento, Box, CaixaConhe, TextoEu } from './sobreStyles'
+import { Alinhamento, Box, Conhecimentos, TextoEu } from './sobreStyles'
 
 import "./soft.css"
+
 
 
 
@@ -33,7 +34,7 @@ const SobreMim = () => {
 
 
 
-    <br/>   <br/>
+    
 
 
 <TextoEu>
@@ -57,7 +58,7 @@ const SobreMim = () => {
 
 
 
-    <h1>conhecimentos </h1>
+    <Conhecimentos>conhecimentos </Conhecimentos>
 
       {Data.map(datas =>(
         <Card 
@@ -74,7 +75,7 @@ const SobreMim = () => {
         </Box>
 
         <div className="conhecimentos-sub-title">
-        <h4>Soft Skills</h4>
+        <h4 className='Soft'>Soft Skills</h4>
       </div>
       <div className="container-soft-skills" data-aos="fade-right" data-aos-duration="1000">
         <div className="cards-soft-skills">
@@ -107,11 +108,15 @@ const SobreMim = () => {
           <div className="content-soft-skills">
             <h2>04</h2>
             <h3>Liderança</h3>
-            <p>Significa estar sempre atento ao ambiente e às pessoas a sua volta e estar sempre em busca de uma solução que melhore própria vida e a dos outros.</p>
+            <p>A liderança é uma poderosa combinação de estratégia e caráter. Mas se tiver de passar sem uma, que seja estratégia.
+- Norman Schwarzkopf </p>
             <a href="https://www.dicio.com.br/lideranca/" target="_blank">Leia Sobre</a>
           </div>
         </div>
       </div>
+
+
+
     </ContainerMain>
     
     </>

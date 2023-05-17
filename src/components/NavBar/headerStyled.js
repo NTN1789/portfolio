@@ -3,13 +3,15 @@ import styled from "styled-components"
 export const banner = styled.header`
     display:flex;
     justify-content:flex-end;
+    align-items:center;
     
     background-color: #171717;
-   
-    
+
    
 
-    height:8vw;
+    height:9vw;
+
+
 
 
 
@@ -17,7 +19,7 @@ export const banner = styled.header`
         display:flex;
      justify-content:space-around;
      align-items:center;
-
+       
      width:60vh;
      cursor:pointer;
      flex-wrap:wrap;
@@ -36,15 +38,47 @@ export const banner = styled.header`
  
     list-style:none;
   
-    
-  
+
+
 }
 
 a{
     text-decoration:none;
+
 }
 
 
+.mobile{
+    display:none;
+    
+}
+@media  (max-width: 999px)  {
+body{
+    overflow-x:hidden;
+}
+    ul{
+        display:none;
+
+    }
+    .mobile{
+        display:block;
+
+      width:60px;
+      position:relative;
+     
+      font-size:5rem;
+     
+        color:blue;
+  
+       
+    
+  
+       
+        
+    }
+}
+
+  
 `
 
 

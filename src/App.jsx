@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 import Projetos from './components/Projetos/Projetos'
@@ -12,8 +12,14 @@ import Main from './components/Main/Main'
 
 
 
+
+
+
+
+
+
 function App() {
-  
+ 
 
 
   return (
@@ -21,8 +27,8 @@ function App() {
    
 
           <BrowserRouter>
-        
-         <NavBar/>
+
+         <NavBar    />
          
           <Routes>  
             <Route path="/" element={<Main/>} />"
@@ -30,6 +36,7 @@ function App() {
          <Route path="/Contatos" element={<Contatos/>} />  
          <Route path="/sobreMim" element={<SobreMim/>} />  
             </Routes>  
+
           
           </BrowserRouter>
           
