@@ -2,7 +2,7 @@ import React from 'react'
 import { ContainerMain } from '../Main/MainStyled'
 import { Card } from './Cards'
 import Data from './data'
-import { GlobalStyle } from '../../style/Global'
+
 import { Alinhamento, Box, Conhecimentos, TextoEu } from './sobreStyles'
 
 import "./soft.css"
@@ -17,7 +17,6 @@ import "./soft.css"
 const SobreMim = () => {
   return (
     <>
-      <GlobalStyle/>
     <ContainerMain  style={{display: 'flex', justifyContent: 'center', alignItems:"flex-start", flexWrap: 'wrap', padding: '130px' , height:"100%"  }}>
 
 <Alinhamento style={{ color: 'white', fontSize: '70px'}}>sobre mim </Alinhamento>
