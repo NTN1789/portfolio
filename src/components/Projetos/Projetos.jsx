@@ -48,11 +48,11 @@ const Projetos = () => {
 
 
 
-           <Card sx={{ maxWidth: 380 }}>
+           <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="200"
+          height="220"
           image={Recipes}
           alt="recipes"
           />
@@ -61,7 +61,8 @@ const Projetos = () => {
          Recipes
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+    Projeto feito em Vite e Gatsby , Landing page básica para simular um
+    restaurante
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -76,11 +77,11 @@ const Projetos = () => {
     </Card>
 
 
-    <Card sx={{ maxWidth: 372 }}>
+    <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="200"
+          height="210"
           image={CatApi}
           alt="green iguana"
           />
@@ -89,7 +90,7 @@ const Projetos = () => {
           Cat Api
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+          Projeto feito em React consumindo uma API de gatos 
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -103,7 +104,7 @@ const Projetos = () => {
       </CardActions>
     </Card>
      
-    <Card sx={{ maxWidth: 372 }}>
+    <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -116,7 +117,7 @@ const Projetos = () => {
       PokeDex
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+       Projeto feito em Vite com Objetivo de fazer uma PokeDex com a API do Pokemon
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -130,7 +131,7 @@ const Projetos = () => {
       </CardActions>
     </Card>
      
-    <Card sx={{ maxWidth: 372 }}>
+    <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -143,7 +144,7 @@ const Projetos = () => {
           Todo List
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+       Projeto feito em React com objetivo de criar uma lista de tarefas em que agregar nos estudos dia a dia
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -157,7 +158,7 @@ const Projetos = () => {
       </CardActions>
     </Card>
      
-    <Card sx={{ maxWidth: 372 }}>
+    <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -170,7 +171,7 @@ const Projetos = () => {
             Pepsi-page
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+              projeto simulando uma página de latas de qualquer marca de bebida 
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -197,7 +198,7 @@ const Projetos = () => {
       card animado
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+        Simples Card feito em HTML e CSS
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -223,7 +224,7 @@ const Projetos = () => {
           Calculadora
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+       projeto feito em React com objetivo de fazer uma calculadora .
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -241,7 +242,7 @@ const Projetos = () => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="175"
+          height="200"
           image={CardDogs}
           alt="card dogs"
           />
@@ -250,7 +251,7 @@ const Projetos = () => {
           Card 
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+          Card simples em HTML e CSS
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -277,7 +278,7 @@ const Projetos = () => {
          Portflow 
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+projeto feito em Html e Css com objetivo de ser uma single page básica
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -305,7 +306,8 @@ const Projetos = () => {
          Copa do mundo 
           </Typography>
           <Typography variant="body4" color="text.secondary">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit maxime consequuntur omnis tempore iste, quidem earum autem dolore cum debitis cupiditate sequi tenetur dicta? Optio architecto vel voluptate dicta similique hic placeat quis, temporibus enim dolores, aliquam ipsam. Corrupti autem perferendis at nesciunt deserunt magni veniam possimus quos voluptates ducimus!
+
+projeto da Copa do mundo de 2022 feito em Html e css
           </Typography>
         </CardContent>
       </CardActionArea>
